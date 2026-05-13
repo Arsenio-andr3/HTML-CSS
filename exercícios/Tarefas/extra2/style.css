@@ -1,0 +1,12 @@
+@charset "UTF-8";
+img{
+    width: 20em;
+    height: 20em;
+    object-fit: contain;
+}
+div{
+    padding: 6px;
+
+
+}
+ 

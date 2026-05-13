@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100dvw;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.mae{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: 200px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.caixa{
+    width: 200px;
+    height: 200px;
+    
+}
+.vermelho{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}

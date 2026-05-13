@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(5, 108, 67);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .especial{
+            background-color: rgb(239, 82, 82);
+            width: 300px;
+            color: white;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial::after{
+            content: " ←";
+        }
+        .especial::before{
+            content: " →";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando  Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC4Ollhz1-Q7wbiLTmiYNyJQ" target="_blank">Canal do Yutube</a></li>
+        <li><a href="https://www.instagram.com/a.s_andr3/#" target="_blank" class="especial">Instagram</a></li>
+    </ul>
+</body>
+</html>
